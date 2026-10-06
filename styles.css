@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #faf9f6;
+    color: #333;
+
+    line-height: 1.6;
+}
+
+
+/* NAVIGATION */
+
+header {
+    background-color: white;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+nav {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.logo {
+    font-family: Georgia, serif;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+
+    list-style: none;
+}
+
+.nav-links a {
+    color: #333;
+
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    opacity: 0.6;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background-color: #e9e2d8;
+}
+
+.hero-content h1 {
+    font-family: Georgia, serif;
+
+    font-size: 70px;
+
+    margin: 20px 0;
+}
+
+.small-heading {
+    letter-spacing: 4px;
+
+    font-size: 14px;
+}
+
+.wedding-date {
+    font-size: 24px;
+
+    margin-bottom: 5px;
+}
+
+
+/* BUTTON */
+
+.button {
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 14px 30px;
+
+    border: none;
+
+    background-color: #6e7c64;
+    color: white;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    border-radius: 4px;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+
+/* GENERAL SECTIONS */
+
+.section {
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 100px 30px;
+
+    text-align: center;
+}
+
+.section h2 {
+    font-family: Georgia, serif;
+
+    font-size: 42px;
+
+    margin-bottom: 20px;
+}
+
+.section-intro {
+    max-width: 650px;
+
+    margin: 0 auto 50px auto;
+}
+
+.alternate {
+    max-width: none;
+
+    background-color: #f0ece6;
+}
+
+
+/* STORY */
+
+.story-container {
+    max-width: 900px;
+
+    margin: auto;
+
+    display: flex;
+
+    gap: 60px;
+
+    align-items: center;
+
+    text-align: left;
+}
+
+.story-text {
+    flex: 1;
+}
+
+.story-text h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.photo-placeholder {
+    flex: 1;
+
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ddd4c8;
+
+    font-family: Georgia, serif;
+
+    font-size: 25px;
+}
+
+
+/* DETAILS */
+
+.card-container {
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+
+    padding: 40px 25px;
+
+    flex: 1;
+
+    border-radius: 6px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+
+    font-size: 25px;
+
+    margin-bottom: 20px;
+}
+
+
+/* SCHEDULE */
+
+.schedule {
+    max-width: 600px;
+
+    margin: auto;
+}
+
+.schedule-item {
+    display: flex;
+
+    gap: 40px;
+
+    padding: 20px;
+
+    border-bottom: 1px solid #ccc;
+
+    text-align: left;
+}
+
+.schedule-item span {
+    font-weight: bold;
+
+    min-width: 100px;
+}
+
+
+/* REGISTRY */
+
+.registry-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+}
+
+
+/* RSVP FORM */
+
+form {
+    max-width: 550px;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+form label {
+    margin-top: 20px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    padding: 13px;
+
+    font-size: 16px;
+
+    border: 1px solid #aaa;
+
+    border-radius: 4px;
+
+    font-family: inherit;
+}
+
+form textarea {
+    min-height: 120px;
+
+    resize: vertical;
+}
+
+#confirmation {
+    margin-top: 25px;
+
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 60px;
+
+    text-align: center;
+
+    background-color: #333;
+
+    color: white;
+}
+
+footer h2 {
+    font-family: Georgia, serif;
+
+    margin-bottom: 10px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 750px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 45px;
+    }
+
+    .story-container {
+        flex-direction: column;
+    }
+
+    .photo-placeholder {
+        width: 100%;
+        min-height: 350px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .schedule-item {
+        gap: 10px;
+    }
+
+}
