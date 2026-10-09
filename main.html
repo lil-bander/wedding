@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brayden & Cate | Wedding</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">B & C</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#registry">Registry</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="small-heading">WE'RE GETTING MARRIED</p>
+
+            <h1>Brayden & Cate</h1>
+
+            <p class="wedding-date">
+                July 24, 2027
+            </p>
+
+            <p>
+                Greenville, South Carolina
+            </p>
+
+            <a href="#rsvp" class="button">
+                RSVP
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- OUR STORY -->
+    <section id="story" class="section">
+
+        <h2>Our Story</h2>
+
+        <p class="section-intro">
+            We are so excited to celebrate this next chapter of our lives
+            with the people who mean the most to us.
+        </p>
+
+        <div class="story-container">
+
+            <div class="story-text">
+
+                <h3>How We Met</h3>
+
+                <p>
+                    Put the story of how you met here. You could talk about
+                    your first date, how long you've been together, or anything
+                    else you'd like your guests to know.
+                </p>
+
+                <h3>The Proposal</h3>
+
+                <p>
+                    Put your engagement story here.
+                </p>
+
+            </div>
+
+            <div class="photo-placeholder">
+                Couple Photo
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DETAILS -->
+    <section id="details" class="section alternate">
+
+        <h2>Wedding Details</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Ceremony</h3>
+
+                <p>4:00 PM</p>
+
+                <p>
+                    Wedding Venue
+                    <br>
+                    Anderson, South Carolina
+                </p>
+            </div>
+
+
+            <div class="card">
+
+                <h3>Reception</h3>
+
+                <p>5:00 PM</p>
+
+                <p>
+                    Reception Venue
+                    <br>
+                    Anderson, South Carolina
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Dress Code</h3>
+
+                <p>
+                    Semi-Formal
+                </p>
+
+                <p>
+                    Come dressed to celebrate!
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SCHEDULE -->
+    <section id="schedule" class="section">
+
+        <h2>Schedule</h2>
+
+        <div class="schedule">
+
+            <div class="schedule-item">
+                <span>4:00 PM</span>
+                <p>Wedding Ceremony</p>
+            </div>
+
+            <div class="schedule-item">
+                <span>4:30 PM</span>
+                <p>Pictures & Cocktail Hour</p>
+            </div>
+
+            <div class="schedule-item">
+                <span>5:30 PM</span>
+                <p>Dinner</p>
+            </div>
+
+            <div class="schedule-item">
+                <span>6:30 PM</span>
+                <p>First Dance</p>
+            </div>
+
+            <div class="schedule-item">
+                <span>7:00 PM</span>
+                <p>Dancing & Celebration</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REGISTRY -->
+    <section id="registry" class="section alternate">
+
+        <h2>Registry</h2>
+
+        <p class="section-intro">
+            Your presence at our wedding is the greatest gift.
+            If you would like to contribute to our new life together,
+            our registries can be found below.
+        </p>
+
+        <div class="registry-buttons">
+
+            <a href="#" class="button">
+                Amazon
+            </a>
+
+            <a href="#" class="button">
+                Target
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- RSVP -->
+    <section id="rsvp" class="section">
+
+        <h2>RSVP</h2>
+
+        <p class="section-intro">
+            Please respond by May 1, 2027.
+        </p>
+
+        <form id="rsvpForm">
+
+            <label for="name">
+                Name
+            </label>
+
+            <input
+                    type="text"
+                    id="name"
+                    placeholder="First and Last Name"
+                    required
+            >
+
+
+            <label for="attendance">
+                Will you be attending?
+            </label>
+
+            <select id="attendance" required>
+
+                <option value="">
+                    Select an option
+                </option>
+
+                <option value="yes">
+                    Yes, I'll be there!
+                </option>
+
+                <option value="no">
+                    Sorry, I can't make it
+                </option>
+
+            </select>
+
+
+            <label for="guests">
+                Number of Guests
+            </label>
+
+            <input
+                    type="number"
+                    id="guests"
+                    min="1"
+                    max="10"
+                    value="1"
+            >
+
+
+            <label for="message">
+                Message
+            </label>
+
+            <textarea
+                    id="message"
+                    placeholder="Anything you'd like us to know?"
+            ></textarea>
+
+
+            <button type="submit" class="button">
+                Submit RSVP
+            </button>
+
+        </form>
+
+
+        <p id="confirmation"></p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <h2>Brayden & [Name]</h2>
+
+    <p>
+        We can't wait to celebrate with you.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

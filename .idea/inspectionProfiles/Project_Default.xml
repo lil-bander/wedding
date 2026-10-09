@@ -1,6 +1,7 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+<<<<<<< HEAD
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
@@ -71,6 +72,72 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="application.User.*" />
+=======
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="ansicon" />
+          <option value="awsebcli" />
+          <option value="blessed" />
+          <option value="boto" />
+          <option value="botocore" />
+          <option value="cement" />
+          <option value="certifi" />
+          <option value="cffi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="clr_loader" />
+          <option value="cryptography" />
+          <option value="decorator" />
+          <option value="Deprecated" />
+          <option value="fabric" />
+          <option value="greenlet" />
+          <option value="idna" />
+          <option value="invoke" />
+          <option value="jinxed" />
+          <option value="narwhals" />
+          <option value="numpy" />
+          <option value="paramiko" />
+          <option value="pathspec" />
+          <option value="prettytable" />
+          <option value="psycopg2-binary" />
+          <option value="pycparser" />
+          <option value="PyNaCl" />
+          <option value="pypiwin32" />
+          <option value="pythonnet" />
+          <option value="pywin32" />
+          <option value="PyYAML" />
+          <option value="requests" />
+          <option value="semantic-version" />
+          <option value="setuptools" />
+          <option value="termcolor" />
+          <option value="typing_extensions" />
+          <option value="wcwidth" />
+          <option value="wrapt" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E302" />
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="types.NoneType.*" />
+>>>>>>> 87f7eae02e490a25ed51b1f995810fabd0777591
         </list>
       </option>
     </inspection_tool>
